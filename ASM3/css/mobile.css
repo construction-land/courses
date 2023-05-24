@@ -1,0 +1,82 @@
+@media only screen and (max-width: 480px) {
+
+    body{
+        background-color: rgb(244, 94, 94);
+    }
+    
+    
+    /* ######## BANNER section ############  */
+    .banner-text{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .banner-text * {
+        font-size: smaller
+    }
+    
+
+    /* ######## NAV-BAR section ############  */
+    
+    /* Không hiển thị các cột phân chia, khoảng trắng dưới avatar  */
+    nav > .nav-col, .nav-col-avatar{
+        display: none;
+    }
+
+
+    nav > .nav-item-under-avatar{
+        display: none;
+    }
+    #nav-item-buffer{
+        display: none;
+    }
+    /* Không hiển thị avatar & phần đệm bên dưới */
+    #nav-item-advanced {
+        display: none;
+    }
+    .nav-item-under-avatar{
+        width: 0px;
+    }
+
+    nav{
+        display: block;
+        justify-content: left;
+    }
+
+    #nav-bar {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-top: 0;
+    }
+    
+    #nav-item {
+        font-size: 16px;
+        display: flex;
+        width: 100%;
+        color: rgb(127, 200, 234);
+    }
+    
+    a:link, a:visited{
+        text-decoration: none;
+        color: rgb(70, 66, 66);
+    }
+    /* ---------------------------------------------- */
+
+
+    #cert-item-with-boder-left {
+        padding-left: 3px;
+        border-left: 0px;
+    }
+
+
+    .cert-gach-ngang{
+        /* display:none; */
+        margin-bottom: 20px;    
+        border-bottom: 4px solid #d6c08d;
+    }
+
+}
+  
