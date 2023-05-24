@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1024px) and (min-width: 481px) {
+
+    /* ----- NAV section  --------------  */
+    
+    /* ###### PHẦN BANNER ########### */
+    .banner-text{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+
+    /* Không hiển thị avatar & phan dem ben duoi */
+    #nav-item-advanced {
+        display: none;
+    }
+    .nav-item-under-avatar{
+        width: 0px;
+    }
+
+    /* ###### PHẦN NAV-BAR ########### */
+    #nav-bar {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-left: auto;
+        margin-right: 0px;
+        padding-top: 0;
+        position: relative;
+    }
+    
+    #nav-item {
+        font-size: 16px;
+        display: inline-block;
+        vertical-align: middle;
+        color: rgb(127, 200, 234);
+    }
+    
+    
+    .nav-col, .nav-col-avatar{
+        display: inline-block;
+        vertical-align: middle;
+        border-left: 3px solid rgb(120, 166, 214);
+        border-width: 2px;
+        margin-left: 25px;
+        margin-left: 25px;
+    }
+
+    
+    a:link, a:visited{
+        text-decoration: none;
+        color: rgb(70, 66, 66);
+    }
+
+    /* ###### PHẦN CERT ########### */
+    /* dùng bootstrap col-md-3 cho hình và col-md-2 cho nội dung */
+    
+}
